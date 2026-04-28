@@ -1,64 +1,99 @@
-## Raised By
+| Change ID       | CIAS-AD-001                                                                  |
+| --------------- | ---------------------------------------------------------------------------- |
+| **Raised By**   | John Smith <john.smith@email.com>                                            |
+| **Date Raised** | 2025-01-01                                                                   |
+| **Change Type** | Request for change / Feature Request / Off-specification / Concern / Problem |
+| **Priority**    | Critical / Major / Minor / Info                                              |
+| **Severity**    | Critical / Major / Minor / Info                                              |
 
-John Smith <john.smith@email.com>
+## 1. Description
 
-## Date Raised
+Please describe what is going on and the reasons/cause why you are reporing issue or requesting the change.
 
-2025-01-01
+### 1.1. Impact of the request
 
-## Issue Type
+*What is/will be impacted by the change*
+- reference risks and opportunities
+- describe benefits
+- brief calculation of the ROI
 
-Request for change / Off-specification / Problem-concern / Feature Request
+### 1.2. Recommendation(s)
 
-## Priority
+*Describe what is the expected behavior*
 
-Critical / Major / Minor / Info
+## 2. Decision
 
-## Severity
+*Decision maker*
 
-Critical / Major / Minor / Info
+*Date of the decision*
 
-## Description
+*The description of final decision by the Project Board / Project Owner / Service Owner*
 
-Please describe what is going on and the reasons you are reporing issue or requesting the change.
-
-### Impact of the request
-
-What is/will be impacted by the change.
-
-### Recommendation
-
-Describe what is the expected behaviour.
-
-## Decision
-
-*The description of final decision by the Project Board / Owner*
+*Reasons and arguments for the decision*
 
 *Not filled by user*
 
-### Risks
+### 2.1. Risks
 
 *List all potential dependencies and risks involved*
 
 *Not filled by user*
 
-### Implementation
+### 2.2. Implementation
 
-*The decision how the change shall ne implemented*
+*The decision how the change shall be implemented*
 
 *Not filled by user*
 
-## Change Request Status
+## 3. Change Request Status
 
-Opened / Accepted / Rejected / In progress / Blocked / Closed
+```mermaid  
+graph TD  
+A(START) --> B[Opened];
+B --> C[Rejected];
+B --> D[Accepted];
+D --> E[In backlog];
+E --> F[To-Do];
+F --> G[In Progress];
+G --> H[Blocked];
+H --> G
+G --> I[Closed]
+J(END)
+C --> J;
+I --> J;
+```
 
-### Changelog
+*Opened / Accepted / Rejected / In backlog / To-Do / In progress / Blocked / Closed*
+
+*Link to JIRA ticket.*
+
+### 3.1. Changelog
 
 *Document what was done in regard to this feature*
 
 *Not filled by user*
 
+#### 3.1.1. 2025-01-20
 
+**Author**: David Smith <david.smith@email.com>
 
+**2nd Party for Production**: Thomas Müller <thomas.muller@email.com>
 
-
+- scope of the work done
+- architectural changes
+	- [ ] *have you updated relevant documentation*
+- operational changes
+	- [ ] *have you updated relevant documentation*
+- user changes
+	- [ ] *have you updated relevant documentation*
+- testing changes
+	- [ ] are the new tests required?
+	- [ ] Unit testing - SUCCESS / CONDITIONAL / FAILED / NOT-REQUIRED
+		- [ ] [link to the test plan](sample link)
+		- [ ] [link to the results](sample link)
+	- [ ] Integration testing - SUCCESS / CONDITIONAL / FAILED / NOT-REQUIRED
+		- [ ] [link to the test plan](sample link)
+		- [ ] [link to the results](sample link)
+	- [ ] E2E testing - SUCCESS / CONDITIONAL / FAILED / NOT-REQUIRED
+		- [ ] [link to the test plan](sample link)
+		- [ ] [link to the results](sample link)
